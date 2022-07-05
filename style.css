@@ -121,7 +121,7 @@ span{
     width: 50%;
     padding: 30px;
     background-color: white;
-    margin: 10px 20px;
+    margin: 10px 15px;
 }
 .half-page img{
     width: 100%;
@@ -133,5 +133,51 @@ span{
 }
 .half-page p{
     color: rgb(87, 83, 78);
-    font-size: 20px;
+    font-size: 19px;
+    padding-top: 20px;
+}
+/* counter */
+.counter{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.counter{
+    box-shadow: 10px 12px 20px gray;
+    border-radius: 20px;
+    margin: 10px 90px;
+    margin-top: 80px;
+}
+.counters{
+    width: 33.33%;
+    padding: 60px;
+}
+.counters h1{
+    font-size: 45px;
+    font-weight: 1200;
+}
+.counters p{
+    color: rgb(87, 83, 78);
+    font-size: 19px;
+}
+/* footer style */
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 50px;
+    margin-top: -10px;
+}
+footer h1{
+    font-size: 45px;
+    font-weight: 1200;
+    color: white;
+}
+footer p{
+    color: white;
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+small{
+    color: orangered;
+    margin-top: 20px;
 }
