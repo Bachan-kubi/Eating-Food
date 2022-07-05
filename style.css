@@ -57,4 +57,19 @@ body{
 }
 .about{
     display: flex;
+    background-image: url(./images/7.png);
+    width: 100%;
+}
+
+.about-img{
+    width: 50%;
+}
+.about-img img{
+    width: 50%;
+    padding: 30px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.about-title{
+    width: 50%;
 }
