@@ -92,10 +92,36 @@ span{
     margin-bottom: 100px;
 }
 /* Receipies */
+.menu-description{
+    color: rgb(87, 83, 78);
+    text-align: center;
+}
+.menu-description h1{
+    font-size: 40px;
+    font-weight: 900;
+    padding: 20px;
+}
+.menu-description p{
+    color: rgb(87, 83, 78);
+    font-size: 20px;
+    padding: 20px;
+}
 .receipies{
+    margin-top: 30px;
+}
+.menu-title{
     display: flex;
     margin-top: 50px;
 }
+.menu-title div{
+    box-shadow: 10px 20px 30px gray;
+    border-radius: 15px;
+}
 .half-page{
     width: 50%;
+    padding: 35px;
+    background-color: white;
+}
+.half-page img{
+    width: 100%;
 }
